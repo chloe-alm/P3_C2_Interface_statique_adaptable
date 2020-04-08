@@ -1,0 +1,1433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Open Sans";
+    font-weight: 500 600;
+    src: url("assets/font/OpenSans-Regular.ttf");
+
+}
+body{
+    margin:0;
+    font-family:"Open Sans";
+
+}
+
+
+/*header mobile*/
+
+header{
+   
+    background-image: url(images/mastehead.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center;
+   
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    
+
+}
+
+
+
+nav{
+   
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+    color: white;
+
+}
+
+nav img{
+    
+    height: 35px;
+}
+
+nav h3{
+    
+    
+    font-size: italic;
+   
+    margin:0;
+    margin-left:7px;
+    
+}
+
+.description{
+    color: white;
+    font-weight: 100;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-top: 60px;
+}
+
+.description h1{
+    
+    text-align: left;
+    margin-bottom: 15px;
+    width: 110%;
+    font-family:"Open Sans";
+    
+
+}
+
+.description p{
+    
+    
+    text-align: left;
+    width: 170%;
+    height: 35vh;
+    font-size: x-small;
+
+}
+.telephone{
+    display: none;
+
+}
+
+
+/*container*/
+#container-start{
+    
+    padding:10px;
+}
+
+#container-start .titreStart{
+    
+    padding:30px;
+    width: 100%;
+    
+}
+
+#container-start .paragraphe1{
+    
+    padding:30px;
+}
+
+#container-start .paragraphe2{
+    
+    padding:30px;
+}
+
+
+
+/*container-box*/
+
+#container-box{
+    
+    padding:20px;
+    color:white;
+}
+#container-box .design{ 
+
+background-color: #F29BAB;
+padding: 35px;
+}
+.lienEtFleches{
+    
+    
+    display: flex;
+    justify-content: start;
+    
+
+}
+.design .fleches{
+    
+    background-color: #F29BAB;
+    height: 30px;
+}
+
+#container-box .built{ 
+
+background-color:#69688C;
+padding: 35px;
+}
+
+#container-box .clients{ 
+
+background-image: url(images/box-bg.jpg);
+padding: 35px;
+
+}
+#container-box .sign{ 
+
+background-image: url(images/box-bg-lg.jpg);
+background-position: center;
+background-size: 140%;
+padding: 35px;
+}
+#container-box .perfect{ 
+
+background-color:#84BF8D;
+padding: 35px;
+}
+
+#container-box a{
+    color:white;
+    text-decoration: none;
+}
+
+
+/* Look*/
+
+#container-look{
+   
+    padding:20px;
+}
+
+#container-look h1{
+   
+    padding:40px;
+}
+#container-look .paragrapheWeb{
+   
+    padding:40px;
+}
+
+#container-look .paragraphePerformance{
+    
+    padding:40px;
+}
+#container-look .paragrapheCultural{
+   
+    padding:40px;
+}
+#container-look .paragrapheSustainability{
+   
+    padding:40px;
+}
+
+
+/*more*/
+
+#container-more{
+    
+    color:white;
+    padding:30px;
+    background-image: url(images/full-image.jpg);
+    background-position: left;
+    background-size:270%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+#container-more h2{
+    
+    
+    font-size: 25px;
+    padding-top: 60px;
+    height: 25vh;
+    width: 60%;
+    
+}
+
+#container-more a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+/*Reasons*/
+
+
+#container-reasons{
+
+    
+    background-color: #84BF8D;
+    color:white;
+    padding:20px;
+   
+}
+#container-reasons h1{
+    
+    padding:10px;
+}
+
+
+
+#container-reasons .paragrapheBased{
+    
+    padding:10px;
+   
+
+}
+
+
+#container-reasons .paragrapheTeam{
+    
+    padding:10px;
+
+}
+
+#container-reasons .paragrapheGreat{
+   
+    padding:10px;
+
+}
+
+/*go*/
+
+#container-go{
+    
+    padding:20px;
+    padding-bottom: 60px;;
+}
+.goItSolo{
+    
+    padding: 5px;
+    padding-bottom: 40px;
+}
+#container-go span p{
+    
+    border:rgb(231, 227, 227) 2px solid;
+    border-radius: 7px;
+    background-color: rgb(231, 227, 227);
+    color: honeydew;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    
+}
+#container-go h1{
+   
+    padding-top:20px;
+}
+#container-go .artgo{
+  
+    padding-top:20px;
+    padding-bottom: 30px;
+
+}
+#container-go button{
+    background:#84BF8D;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color:white;
+    padding: 12px 18px;
+    border: none;
+    transition:.5s;
+    border: 2px solid transparent;
+    
+}
+button:hover{ /* pour effet bouton*/
+    opacity: 0.7;
+    cursor: pointer;
+}
+#container-go .violet{
+    background-color: rgb(134, 108, 160);
+}
+
+#container-go .logo{
+    
+    padding-top: 20px;
+}
+.logo img{
+    height: 35px;
+}
+#container-go .artplan{
+    
+    padding-top:20px;
+    padding-bottom:30px;
+}
+
+/*footer*/
+
+footer{
+    
+    padding:30px;
+    background-color: #182433;
+    color: white;
+}
+footer h3{
+   
+    padding-bottom: 15px;
+    font-size: small;
+}
+
+footer .touch{
+    
+    padding-bottom: 15px;
+    font-size: x-small;
+}
+
+footer form{
+    
+    display: flex;
+    
+
+    
+}
+
+input[type=button] {
+    width: 45px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:  #83c89c;
+}
+
+input[type=search]{
+   
+    height:40px;
+    width: 100%;
+    border-radius: 5px;
+    border-radius: 4px 0 0 4px;
+}  
+.stayInTouch p{
+    
+    font-size: xx-small;
+}
+   
+    
+
+
+footer p{
+    
+    color:grey;
+    font-size: small;
+}
+footer .colones{
+   
+    padding-top:30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+    
+}
+footer .resources a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+
+}
+
+footer .how a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer .Resources a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1040px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    header{
+        
+        background-image: url(images/mastehead.jpg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position:relative;
+    
+    }
+    
+    
+    
+    nav{
+       
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: white;
+    
+    }
+    
+    nav img{
+        
+        height: 35px;
+    }
+    
+    nav h3{
+       
+        font-size: italic;
+       
+        margin:0;
+        margin-left:7px;
+        
+    }
+    
+    .description{
+        
+        color: white;
+        font-weight: 100;
+        padding: 70px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-top: 60px;
+    }
+    
+    .description h1{
+       
+        text-align: left;
+        margin-bottom: 15px;
+        width: 50%;
+    
+    }
+    
+    .description p{
+       
+        
+        text-align: left;
+        width: 100%;
+        height: 20vh;
+        font-size: small;
+        
+    
+    }
+    .telephone{
+        display: none;
+    
+    }
+    /*container*/
+#container-start{
+   
+    padding:50px;
+    display: flex;
+    
+}
+#container-start .start{
+   
+    width: 70%;
+}
+
+#container-start .titreStart{
+    
+    padding:30px;
+    width: 100%;
+}
+
+#container-start .paragraphe1{
+    
+    padding:30px;
+    width: 100%;
+}
+
+#container-start .paragraphe2{
+   
+    padding-top:240px;
+    text-justify: inter-word;
+    text-align: justify;
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+/*container-box*/
+
+#container-box{
+   
+    padding:50px;
+    color:whitesmoke;
+    display: flex;
+    flex-wrap:wrap;
+   
+  
+}
+#container-box .design{ 
+
+background-color: #F29BAB;
+padding: 35px;
+width: 50%;
+
+}
+.lienEtFleches{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    
+
+}
+
+
+#container-box .built{ 
+
+background-color:#69688C;
+padding: 35px;
+width: 50%;
+}
+
+#container-box .clients{ 
+
+background-image: url(images/box-bg.jpg) no-repeat;
+background-size: 100%;
+width: 50%;
+
+}
+#container-box .sign{ 
+
+background-image: url(images/box-bg-lg.jpg);
+background-position:left;
+background-size: 195%;
+padding: 35px;
+width: 50%;
+}
+#container-box .perfect{ 
+
+background-color:#84BF8D;
+padding: 35px;
+width: 100%;
+}
+
+#container-box a{
+    color:white;
+    text-decoration: none;
+}
+
+/* Look*/
+
+#container-look{
+    
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-look h1{
+   
+    padding:40px;
+    width: 100%;
+}
+#container-look .paragrapheWeb{
+    
+    padding:40px;
+    width: 50%;
+
+}
+
+#container-look .paragraphePerformance{
+    
+    padding:40px;
+    width: 50%;
+}
+#container-look .paragrapheCultural{
+   
+    padding:40px;
+    width: 50%;
+}
+#container-look .paragrapheSustainability{
+   
+    padding:40px;
+    width: 50%;
+}
+/*more*/
+
+#container-more{
+    
+    color:white;
+    padding:30px;
+    background-image: url(images/full-image.jpg);
+    background-position: left;
+    background-size:270%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+#container-more h2{
+    
+    
+    font-size: 55px;
+    padding-top: 25%;
+    height: 46vh;
+    width: 45%;
+    
+    
+}
+
+
+#container-more .artmore{
+    
+    width: 35%;
+
+}
+#container-more a{
+    text-decoration: none;
+    color:white;
+    
+}
+/*Reasons*/
+
+
+#container-reasons{
+
+    
+    background-color: #84BF8D;
+    color:white;
+    padding:40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   
+}
+#container-reasons h1{
+    
+    padding:30px;
+    width: 100%;
+    
+}
+
+
+
+#container-reasons .paragrapheBased{
+    
+    padding:30px;
+    width: 33%;
+    height: 30vh;
+   
+    
+
+   
+
+}
+
+
+#container-reasons .paragrapheTeam{
+    
+    padding:30px;
+    width: 33%;
+    height: 30vh;
+
+}
+
+#container-reasons .paragrapheGreat{
+    
+    padding:30px;
+    width: 33%;
+    height:30vh;
+
+}
+/*go*/
+
+#container-go{
+    
+    padding:50px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.goItSolo{
+   
+    width: 45%;
+   
+}
+.teamPlan{
+    
+    width: 45%;
+}
+
+#container-go span p{
+    border:rgb(231, 227, 227) 2px solid;
+    border-radius: 7px;
+    background-color: rgb(231, 227, 227);
+    color: honeydew;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    
+}
+#container-go h1{
+    
+    padding-left:0px;
+
+   
+}
+#container-go .artgo{
+    
+    padding:30px;
+    padding-left:0px;
+
+   
+
+}
+#container-go button{
+    background:#84BF8D;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color:white;
+    padding: 12px 18px;
+    border: none;
+    transition:.5s;
+    border: 2px solid transparent;
+}
+button:hover{ /* pour effet bouton*/
+    opacity: 0.7;
+    cursor: pointer;
+}
+#container-go .violet{
+    background-color: rgb(134, 108, 160);
+}
+
+#container-go .logo{
+    
+    padding-top: 20px;
+}
+.logo img{
+    height: 35px;
+}
+#container-go .artplan{
+   
+    padding:30px;
+    padding-left:0px;
+}
+
+/*footer*/
+
+footer{
+    
+    padding:50px;
+    padding-bottom: 60px;
+    background-color: #182433;
+    color: white;
+}
+footer h3{
+
+    padding-bottom: 15px;
+    font-size: small;
+}
+
+footer .touch{
+    
+    padding-top: 10px;
+}
+
+footer form{
+   
+    display: flex;
+    
+
+    
+}
+
+input[type=button] {
+    width: 45px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:  #83c89c;
+}
+
+input[type=search]{
+   
+    height:40px;
+    width: 100%;
+    border-radius: 5px;
+    border-radius: 4px 0 0 4px;
+}  
+   
+    /*border:none;*/
+
+
+footer p{
+   
+    color:grey;
+    font-size: small;
+}
+footer .colones{
+    
+    padding-top:30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 80%;
+    
+}
+footer .resources a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+
+}
+
+footer .how a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer .Resources a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+
+}
+
+
+
+}
+
+@media screen and (min-width:1025px){
+    header{
+        
+        background-image: url(images/mastehead.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position:center;
+        display: flex;
+        flex-direction: column;
+        position:relative;
+    }
+    
+    
+    
+    nav{
+       
+        display: flex;
+        align-items: center;
+        padding: 2vh;
+        color: white;
+    
+    }
+    
+    nav img{
+        
+        height: 35px;
+    }
+    
+    nav h3{
+        
+        
+        font-size: italic;
+       
+        margin:0;
+        margin-left:7px;
+        
+    }
+    
+    .description{
+        color: white;
+        font-weight: 100;
+        padding: 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-top: 60px;
+    }
+    
+    .description h1{
+        
+        text-align: left;
+        margin-bottom: 15px;
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        
+        
+        
+        
+    
+    }
+    
+    .description p{
+        
+        width: 105%;
+        height: 35vh;
+        padding-left: 150px;
+        font-size: x-small;
+        
+    
+    }
+    .telephone{
+        display: block;
+        position: absolute;
+        top:20%;
+        right: 5%;
+        width: 40%;
+    
+    }
+    /*container*/
+#container-start{
+   
+    padding:50px;
+    display: flex;
+    
+}
+#container-start .start{
+   
+    width: 70%;
+}
+
+#container-start .titreStart{
+   
+    padding:30px;
+    width: 100%;
+}
+
+#container-start .paragraphe1{
+    
+    padding:30px;
+    width: 100%;
+}
+
+#container-start .paragraphe2{
+   
+    padding-top:190px;
+    text-justify: inter-word;
+    text-align: justify;
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: end;
+
+}
+/*container-box*/
+
+#container-box{
+    
+    padding:50px;
+    color:white;
+    display: flex;
+    flex-wrap:wrap;
+   
+  
+}
+#container-box .design{ 
+
+background-color: #F29BAB;
+padding: 35px;
+width: 33%;
+
+}
+.lienEtFleches{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+    
+
+}
+
+
+#container-box .built{ 
+
+background-color:#69688C;
+padding: 35px;
+width: 33%;
+}
+
+#container-box .clients{ 
+border:black 4px solid;
+background-image: url(images/box-bg.jpg) no-repeat;
+background-size: 100%;
+width: 33%;
+
+}
+#container-box .sign{ 
+
+background-image: url(images/box-bg-lg.jpg) no-repeat;
+background-position:center;
+background-size: 100%;
+padding: 35px;
+width: 66%;
+display: flex;
+flex-direction: column;
+}
+
+
+#container-box .perfect{ 
+
+background-color:#84BF8D;
+padding: 35px;
+width: 33%;
+}
+
+#container-box a{
+    color:white;
+    text-decoration: none;
+}
+/* Look*/
+
+#container-look{
+    
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-look h1{
+    
+    padding:40px;
+    width: 100%;
+}
+#container-look .paragrapheWeb{
+    
+    padding:40px;
+    width: 25%;
+
+}
+
+#container-look .paragraphePerformance{
+    
+    padding:40px;
+    width: 25%;
+}
+#container-look .paragrapheCultural{
+   
+    padding:40px;
+    width: 25%;
+}
+#container-look .paragrapheSustainability{
+   
+    padding:40px;
+    width: 25%;
+}
+/*more*/
+
+#container-more{
+    
+    color:white;
+    padding:130px;
+    background-image: url(images/full-image.jpg);
+    background-position: left;
+    background-size:100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+#container-more h2{
+   
+    font-size: 30px;
+    width: 45%;
+    padding-left: 165px;
+    
+
+  
+    
+    
+}
+#container-more .paragrapheMore
+{
+    
+    padding-left: 165px;
+    padding-top:15px;
+}
+
+#container-more .artmore{
+    
+    width: 45%;
+    font-size: small;
+    
+    
+
+}
+#container-more a{
+    text-decoration: none;
+    color:white;
+    
+}
+/*Reasons*/
+
+
+#container-reasons{
+
+    
+    background-color: #84BF8D;
+    color:white;
+    padding:40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   
+}
+#container-reasons h1{
+   
+    padding:30px;
+    width: 100%;
+    
+}
+
+
+
+#container-reasons .paragrapheBased{
+    
+    padding:30px;
+    width: 30%;
+    height: 35vh;
+   
+    
+
+   
+
+}
+
+
+#container-reasons .paragrapheTeam{
+   
+    padding:30px;
+    width: 30%;
+    height: 35vh;
+
+}
+
+#container-reasons .paragrapheGreat{
+    
+    padding:30px;
+    width: 30%;
+    height:35vh;
+
+}
+/*go*/
+
+#container-go{
+    
+    padding:50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    
+    
+    
+}
+.goItSolo{
+    
+    width: 45%;
+    padding:20px;
+   
+}
+.teamPlan{
+    border:grey solid 2px;
+    width: 45%;
+    padding:20px;
+    border-radius: 9px;
+    background-color: white;
+    -moz-box-shadow: 10px 10px 5px #656565;
+   -webkit-box-shadow: 10px 10px 5px #656565;
+   -o-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color='#6565', Direction=135, Strength=5);
+}
+
+#container-go span p{
+    border:rgb(214, 210, 210) 2px solid;
+    border-radius: 7px;
+    background-color: rgb(214, 210, 210);
+    color: honeydew;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    
+}
+#container-go h1{
+    
+    padding-left:0px;
+    
+   
+}
+#container-go .artgo{
+   padding-left:0px;
+}
+#container-go button{
+    background:#84BF8D;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color:white;
+    padding: 12px 18px;
+    border: none;
+    transition:.5s;
+    border: 2px solid transparent;
+}
+button:hover{ /* pour effet bouton*/
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+#container-go .violet{
+    background-color: rgb(170, 136, 201);
+    
+    
+    
+    
+}
+
+#container-go .logo{
+    
+    padding-top: 20px;
+    
+}
+.logo img{
+    height: 35px;
+}
+#container-go .artplan{
+    
+    padding-left:0px;
+}
+
+
+/*footer*/
+
+footer{
+    
+    padding:50px;
+    background-color: #182433;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer h3{
+    
+    padding:25px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    font-size: small;
+    width: 100%;
+}
+
+footer .touch{
+    
+    padding-left: 0px;
+    width: 50%;
+}
+
+footer form{
+    
+    display: flex;
+    width: 100%;
+    
+
+    
+}
+.stayInTouch{
+   
+    width: 50%;
+}
+
+input[type=button] {
+    width: 45px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color:  #83c89c;
+}
+
+input[type=search]{
+   
+    height:40px;
+    width: 100%;
+    border-radius: 5px;
+    border-radius: 4px 0 0 4px;
+}  
+   
+    
+
+
+footer p{
+    
+    color:grey;
+    font-size: small;
+}
+footer .colones{
+    
+    padding-top:30px;
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 50%;
+    
+}
+footer .resources a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+
+}
+
+footer .how a{
+   
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer .Resources a{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    
+
+}
+
+
+    
+
+}
+
+
+   
